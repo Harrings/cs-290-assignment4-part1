@@ -36,6 +36,8 @@ else
 	$_SESSION["herebefore"]=1;
 	echo "Hello " . $_SESSION["username"];
 	echo "<br>You have visited this page   $_SESSION[visits]   times";
+	echo "<br> Click <a href=\"content2.php\">here</a> to see if Tom Brady is still mad";
+	echo "<br> Click <a href=\"logout.php\">here</a> to logout";
 }
 
 

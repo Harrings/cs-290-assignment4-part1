@@ -13,6 +13,7 @@ if (isset($_SESSION["username"]))
 {
 	echo "You are already logged in as $_SESSION[username] <br>";
 	echo "if you would like to view content click <a href=\"content1.php\">here</a>";
+	echo "<br> Click <a href=\"logout.php\">here</a> to logout";
 }
 else
 {
