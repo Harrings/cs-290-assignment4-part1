@@ -21,7 +21,7 @@ if (!isset($_SESSION["username"]))
 <?php
 if (($_SESSION["username"]==null||$_SESSION["username"]==""))
 {
-	echo "A username must be entered click <a href=\"login.php\">here</a> to return to login screen";
+	echo "A username must be entered click <a href=\"logout.php\">here</a> to return to login screen";
 }
 else
 {
@@ -36,7 +36,7 @@ else
 	$_SESSION["herebefore"]=1;
 	echo "Hello " . $_SESSION["username"];
 	echo "<br>You have visited this page   $_SESSION[visits]   times";
-	echo "<br> Click <a href=\"content2.php\">here</a> to see if Tom Brady is still mad";
+	echo "<br> Click <a href=\"content2.php\">here</a> to ask richard sherman how many rings Tom Brady has";
 	echo "<br> Click <a href=\"logout.php\">here</a> to logout";
 }
 

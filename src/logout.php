@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>CS 290-Assignment 4 logout</title>
-</head>
-<body>
 <?php
 session_start();
 ob_start(); //from stack overflow
@@ -14,5 +8,11 @@ session_destroy();
 $_SESSION=array();
 header("Location: login.php", true);
  ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CS 290-Assignment 4 logout</title>
+</head>
+<body>
 </body>
 </html>
