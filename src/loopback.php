@@ -2,14 +2,30 @@
 error_reporting(E_ALL);
 ini_set('display_errors','On');
 $show;
-if (isset($_GET))
+$check=array();
+if ("GET"==$_SERVER['REQUEST_METHOD'])
 {
-$show=json_encode($_GET);
-echo " \{Type:GET\}$show";
+	if ($check==$_GET)
+	{
+		echo " {\"Type\":\"GET\" , \"parameters\" : null}";
+	}
+	else
+	{
+		$show=json_encode($_GET);
+		echo " {\"Type\":\"GET\" , \"parameters\" : $show}";
+	}
 }
 else
 {
-$show=json_encode($_POST);
+	if ($check==$_POST)
+	{
+		echo " {\"Type\":\"POST\" , \"parameters\" : null}";
+	}
+	else
+	{
+		$show=json_encode($_POST);
+		echo " {\"Type\":\"POST\" , \"parameters\" : $show}";
+	}
 }
-echo " \{Type:POst\}$show";
+
 ?>
