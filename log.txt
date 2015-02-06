@@ -1,0 +1,32 @@
+
+Start: Tue, 3 Feb 2015 10:35:36 -0800
+End: Tue, 3 Feb 2015 10:40:36 -0800
+Tasks: Set up directory
+
+Start: Wed, 4 Feb 2015 15:00:32 -0800
+End: Wed, 4 Feb 2015 18:14:32 -0800
+Tasks: Built table started debugging
+
+Start: Wed, 4 Feb 2015 18:14:32 -0800
+End: Wed, 4 Feb 2015 18:47:33 -0800
+Tasks: Finished Mult table
+
+Start:Wed, 4 Feb 2015 20:15:00 -0800
+End: Wed, 4 Feb 2015 23:01:13 -0800
+Tasks: Created login page and content 1
+
+Start:Wed, 4 Feb 2015 23:01:13 -0800
+End: Wed, 4 Feb 2015 23:32:38 -0800
+Tasks: Fixed redirect issues
+
+Start:
+End: Thu, 5 Feb 2015 10:20:58 -0800
+Tasks: Added content 2 and logout
+
+Start:Thu, 5 Feb 2015 15:00:41 -0800
+End: Thu, 5 Feb 2015 16:18:41 -0800
+Tasks: Troubleshooting of logout feature
+
+Start:Thu, 5 Feb 2015 16:18:41 -0800
+End: Thu, 5 Feb 2015 17:53:41 -0800
+Tasks: Built and debugged loopback and compiled log
